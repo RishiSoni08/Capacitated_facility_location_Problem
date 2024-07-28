@@ -17,7 +17,7 @@ The objective is to minimize the cost of setting up the facility and the transpo
 
 ### Objective Function
 
-\[ \text{Minimize} \quad \sum_{i} (C_i Y_i) + \sum_{i} \sum_{j} (x_{ij} \cdot D_{ij}) \]
+```\[ \text{Minimize} \quad \sum_{i} (C_i Y_i) + \sum_{i} \sum_{j} (x_{ij} \cdot D_{ij}) \]```
 
 where:
 - \( C_i \) is the capacity of facility \( i \)
@@ -47,7 +47,7 @@ where:
 
 ## Usage
 
-1. **data.ipynb**: Run this notebook to generate `data.json`.
+1. **data.ipynb**: Run this notebook to generate `combined_data.json`.
 2. **Capacitated_Facility_Location.ipynb**: Run this notebook to solve the CFLP using the data from `combined_data.json`.
 
 ## Example
@@ -60,8 +60,9 @@ Here is a brief example of how to use the data and solve the CFLP:
 
 2. Solve the CFLP:
     - Open and run `Capacitated_Facility_Location.ipynb`.
-    - This notebook will use the data from `data.json` to find the optimal locations for the facilities and the assignment of demand nodes to these facilities while minimizing the total cost.
+    - This notebook will use the data from `combined_data.json` to find the optimal locations for the facilities and the assignment of demand nodes to these facilities while minimizing the total cost.
 
 ---
 
 This README provides an overview of the Capacitated Facility Location Problem, the mathematical formulation, and the structure of the project. Ensure that you have all the necessary dependencies installed before running the notebooks.
+

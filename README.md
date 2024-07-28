@@ -46,9 +46,7 @@ where:
 ### Constraints
 
 1. Capacity constraint for each facility:
-$$ \sum_{j} (x_{ij} \cdot p_j) \leq Q_i Y_i \quad \text{for every } i $$
-
-
+   
 $$ \sum_{j} (x_{ij} \cdot p_j) \leq Q_i Y_i \quad \text{for every } i $$
 
 where:
@@ -57,7 +55,6 @@ where:
 - $Y_i$ is a binary variable indicating whether facility $i$ is selected
 
 2. Each demand point is connected to exactly one facility:
-$$ \sum_{i} x_{ij} = 1 \quad \text{for every } j $$
 
 $$ \sum_{i} x_{ij} = 1 \quad \text{for every } j $$
 
@@ -80,8 +77,7 @@ $$ \sum_{i} x_{ij} = 1 \quad \text{for every } j $$
 Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/facility-location-problem.git
-cd facility-location-problem
+git clone https://github.com/RishiSoni08/Capacitated_facility_location_Problem.git
 ```
 ## Usage
 

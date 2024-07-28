@@ -48,6 +48,9 @@ where:
 1. Capacity constraint for each facility:
 $$ \sum_{j} (x_{ij} \cdot p_j) \leq Q_i Y_i \quad \text{for every } i $$
 
+
+$$ \sum_{j} (x_{ij} \cdot p_j) \leq Q_i Y_i \quad \text{for every } i $$
+
 where:
 - $p_j$ is the demand of node $j$
 - $Q_i$ is the capacity of facility $i$
@@ -56,7 +59,10 @@ where:
 2. Each demand point is connected to exactly one facility:
 $$ \sum_{i} x_{ij} = 1 \quad \text{for every } j $$
 
-3. Ensure that the capacity of the facility is more than the total demand of the connected demand nodes.
+$$ \sum_{i} x_{ij} = 1 \quad \text{for every } j $$
+
+
+4. Ensure that the capacity of the facility is more than the total demand of the connected demand nodes.
 
 
 ### Input Data

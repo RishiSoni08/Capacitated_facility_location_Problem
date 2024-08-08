@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project addresses the Capacitated Facility Location Problem (CFLP). Given \( n = 50 \) demand locations, the objective is to determine the optimal placement of \( m = 20 \) facilities such that the total distance between demand points and facilities is minimized while satisfying capacity constraints.
+This project addresses the Capacitated Facility Location Problem (CFLP). Given \( n = 108 \) demand locations, the objective is to determine the optimal placement of  facilities such that the total distance between demand points and facilities is minimized while satisfying capacity constraints.
 
 ## Project Structure
 
